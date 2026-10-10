@@ -1,0 +1,27 @@
+PRÁCTICA DE LABORATORIO — CLÚSTER SPARK LOCAL MULTIPROCESO
+
+Documentación
+- README.md: alcance, estructura e inicio rápido.
+- GUIA_EJECUCION.md: procedimiento completo y criterios de interpretación.
+- informe/Informe_Laboratorio_Spark.pdf: informe técnico de 13 páginas.
+
+Arquitectura
+- cluster/: master y tres workers JVM independientes sobre loopback.
+- cluster/diagrama/topologia.json: definición estructurada de la topología.
+- graficos/topologia_cluster_local.png: diagrama técnico.
+
+Análisis
+- scripts/analytics.py: funciones puras y agregador secuencial.
+- scripts/generate_assets.py: agregados y visualizaciones descriptivas.
+- scripts/run_spark_analysis.py: EDA, segmentaciones y MLlib.
+- scripts/run_scalability.py: medición con 1, 2 y 3 workers.
+- scripts/generate_report.py: composición del PDF.
+- resultados/agregados_descriptivos.json: resultados descriptivos de 500 000 filas.
+- graficos/*.png: cinco gráficos analíticos y una topología.
+
+Calidad
+- tests/: pruebas unitarias de cálculos y formato.
+- cluster/tests/: validaciones de estructura, sintaxis, puertos y recursos.
+
+Los dos CSV no se duplican dentro del paquete. Deben colocarse junto a la carpeta
+laboratorio_spark antes de ejecutar cluster/setup_data.sh.
