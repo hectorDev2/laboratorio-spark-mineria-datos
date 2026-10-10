@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+._*
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Spark local runtime artifacts
+cluster/runtime/
+spark-events/
+work/
+logs/
+*.pid
+*.out
+
+# Local and raw datasets
+cluster/data/*.csv
+/data/
+/datasets/
+*.parquet
+
+# Generated temporary files
+*.tmp
+*.temp
+*.swp
+*~
+.ipynb_checkpoints/

@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Clúster Spark local multiproceso",
+    "quality_profile": "showcase",
+    "viewBox": [1120, 680]
+  },
+  "components": [
+    {
+      "id": "dataset",
+      "type": "database",
+      "label": "Dataset inmobiliario",
+      "sublabel": "2 CSV · ruta local compartida",
+      "pos": [45, 282],
+      "size": [180, 76]
+    },
+    {
+      "id": "driver",
+      "type": "frontend",
+      "label": "Driver PySpark",
+      "sublabel": "Python 3.12 · client mode",
+      "pos": [290, 282],
+      "size": [180, 76]
+    },
+    {
+      "id": "master",
+      "type": "messagebus",
+      "label": "Spark Master",
+      "sublabel": "127.0.0.1:7077 · UI 8080",
+      "pos": [535, 282],
+      "size": [190, 76]
+    },
+    {
+      "id": "worker1",
+      "type": "backend",
+      "label": "Worker 1",
+      "sublabel": "RPC 7078 · UI 8081 · 1 core",
+      "pos": [815, 100],
+      "size": [230, 76]
+    },
+    {
+      "id": "worker2",
+      "type": "backend",
+      "label": "Worker 2",
+      "sublabel": "RPC 7079 · UI 8082 · 1 core",
+      "pos": [815, 282],
+      "size": [230, 76]
+    },
+    {
+      "id": "worker3",
+      "type": "backend",
+      "label": "Worker 3",
+      "sublabel": "RPC 7080 · UI 8083 · 1 core",
+      "pos": [815, 464],
+      "size": [230, 76]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Un solo Mac · procesos JVM independientes · loopback",
+      "wraps": ["dataset", "driver", "master", "worker1", "worker2", "worker3"],
+      "pad": 28
+    }
+  ],
+  "connections": [
+    {
+      "id": "data-to-driver",
+      "from": "dataset",
+      "to": "driver",
+      "label": "lectura local",
+      "variant": "default"
+    },
+    {
+      "id": "driver-to-master",
+      "from": "driver",
+      "to": "master",
+      "label": "envía aplicación",
+      "variant": "emphasis"
+    },
+    {
+      "id": "master-to-worker1",
+      "from": "master",
+      "to": "worker1",
+      "label": "asigna executor",
+      "variant": "default"
+    },
+    {
+      "id": "master-to-worker2",
+      "from": "master",
+      "to": "worker2",
+      "label": "asigna executor",
+      "variant": "default"
+    },
+    {
+      "id": "master-to-worker3",
+      "from": "master",
+      "to": "worker3",
+      "label": "asigna executor",
+      "variant": "default"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Aislamiento lógico",
+      "items": ["Un PID, log, directorio de trabajo y puertos propios por daemon", "Todos los servicios escuchan únicamente en 127.0.0.1"]
+    },
+    {
+      "dot": "amber",
+      "title": "Recursos conservadores",
+      "items": ["Cada worker: 1 core y 768 MiB", "Pensado para Apple M1 con 8 GiB de RAM"]
+    }
+  ]
+}
