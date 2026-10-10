@@ -1,0 +1,313 @@
+{
+  "rows": 500000,
+  "regions": {
+    "Sur": {
+      "count": 147143,
+      "purchase_rate": 0.11908143778501186,
+      "rent_rate": 0.26273081288270594
+    },
+    "Norte": {
+      "count": 94364,
+      "purchase_rate": 0.15326819549828324,
+      "rent_rate": 0.214880674833623
+    }
+  },
+  "districts": {
+    "Sur": {
+      "Puno · Puno": {
+        "count": 6590,
+        "median_price_m2": 2494.0
+      },
+      "Arequipa · Sachaca": {
+        "count": 4381,
+        "median_price_m2": 3621.0
+      },
+      "Arequipa · José Luis Bustamante y Rivero": {
+        "count": 5675,
+        "median_price_m2": 4450.0
+      },
+      "Tacna · Tacna": {
+        "count": 4993,
+        "median_price_m2": 3189.0
+      },
+      "Cusco · Santiago": {
+        "count": 6471,
+        "median_price_m2": 3533.0
+      },
+      "Arequipa · Cayma": {
+        "count": 6169,
+        "median_price_m2": 4825.0
+      },
+      "Cusco · Cusco (Cercado)": {
+        "count": 7220,
+        "median_price_m2": 4711.0
+      },
+      "Arequipa · Cerro Colorado": {
+        "count": 4802,
+        "median_price_m2": 3289.0
+      },
+      "Ayacucho · Ayacucho": {
+        "count": 4183,
+        "median_price_m2": 2400.0
+      },
+      "Cusco · Wanchaq": {
+        "count": 7784,
+        "median_price_m2": 4917.0
+      },
+      "Arequipa · Yanahuara": {
+        "count": 6558,
+        "median_price_m2": 5000.0
+      },
+      "Apurímac · Tamburco": {
+        "count": 2505,
+        "median_price_m2": 1957.0
+      },
+      "Arequipa · Paucarpata": {
+        "count": 3946,
+        "median_price_m2": 3185.5
+      },
+      "Puno · Juliaca": {
+        "count": 5902,
+        "median_price_m2": 2326.5
+      },
+      "Ayacucho · San Juan Bautista": {
+        "count": 2393,
+        "median_price_m2": 1782.0
+      },
+      "Moquegua · Moquegua": {
+        "count": 5564,
+        "median_price_m2": 2938.0
+      },
+      "Arequipa · Arequipa (Cercado)": {
+        "count": 5308,
+        "median_price_m2": 4159.0
+      },
+      "Apurímac · Abancay": {
+        "count": 4512,
+        "median_price_m2": 2213.0
+      },
+      "Cusco · San Sebastián": {
+        "count": 5702,
+        "median_price_m2": 3900.0
+      },
+      "Tacna · Alto de la Alianza": {
+        "count": 2751,
+        "median_price_m2": 2089.0
+      },
+      "Puno · Chucuito": {
+        "count": 3818,
+        "median_price_m2": 1714.0
+      },
+      "Tacna · Pocollay": {
+        "count": 3607,
+        "median_price_m2": 2605.0
+      },
+      "Apurímac · Andahuaylas": {
+        "count": 3538,
+        "median_price_m2": 1871.0
+      },
+      "Puno · San Miguel": {
+        "count": 4812,
+        "median_price_m2": 1894.0
+      },
+      "Moquegua · Samegua": {
+        "count": 3309,
+        "median_price_m2": 2342.0
+      },
+      "Cusco · San Jerónimo": {
+        "count": 5069,
+        "median_price_m2": 3186.0
+      },
+      "Ayacucho · Jesús Nazareno": {
+        "count": 3546,
+        "median_price_m2": 1973.0
+      },
+      "Cusco · Saylla": {
+        "count": 4435,
+        "median_price_m2": 2273.0
+      },
+      "Tacna · Gregorio Albarracín": {
+        "count": 4157,
+        "median_price_m2": 2344.0
+      },
+      "Moquegua · Ilo": {
+        "count": 4397,
+        "median_price_m2": 3111.0
+      },
+      "Ayacucho · Carmen Alto": {
+        "count": 3046,
+        "median_price_m2": 1879.0
+      }
+    },
+    "Norte": {
+      "La Libertad · Víctor Larco Herrera": {
+        "count": 7291,
+        "median_price_m2": 4154.0
+      },
+      "Cajamarca · Cajamarca": {
+        "count": 6577,
+        "median_price_m2": 2633.0
+      },
+      "La Libertad · Trujillo (Cercado)": {
+        "count": 6591,
+        "median_price_m2": 3633.0
+      },
+      "Amazonas · Chachapoyas": {
+        "count": 3339,
+        "median_price_m2": 2000.0
+      },
+      "Tumbes · Tumbes": {
+        "count": 4416,
+        "median_price_m2": 2117.5
+      },
+      "Áncash · Chimbote": {
+        "count": 6103,
+        "median_price_m2": 2595.0
+      },
+      "San Martín · La Banda de Shilcayo": {
+        "count": 3054,
+        "median_price_m2": 2034.0
+      },
+      "La Libertad · Huanchaco": {
+        "count": 4260,
+        "median_price_m2": 2929.0
+      },
+      "Tumbes · Aguas Verdes": {
+        "count": 2567,
+        "median_price_m2": 1610.0
+      },
+      "La Libertad · El Porvenir": {
+        "count": 5053,
+        "median_price_m2": 2252.0
+      },
+      "La Libertad · La Esperanza": {
+        "count": 5750,
+        "median_price_m2": 2423.0
+      },
+      "San Martín · Morales": {
+        "count": 3486,
+        "median_price_m2": 2191.0
+      },
+      "Áncash · Independencia": {
+        "count": 3279,
+        "median_price_m2": 2329.0
+      },
+      "Cajamarca · Jaén": {
+        "count": 3786,
+        "median_price_m2": 1945.0
+      },
+      "Áncash · Nuevo Chimbote": {
+        "count": 4916,
+        "median_price_m2": 2900.0
+      },
+      "San Martín · Moyobamba": {
+        "count": 2374,
+        "median_price_m2": 1855.0
+      },
+      "Cajamarca · Baños del Inca": {
+        "count": 5163,
+        "median_price_m2": 2204.0
+      },
+      "Tumbes · Corrales": {
+        "count": 3504,
+        "median_price_m2": 1690.0
+      },
+      "San Martín · Tarapoto": {
+        "count": 4226,
+        "median_price_m2": 2444.0
+      },
+      "Áncash · Huaraz": {
+        "count": 4185,
+        "median_price_m2": 2558.0
+      },
+      "Amazonas · Bagua Grande": {
+        "count": 2525,
+        "median_price_m2": 1585.0
+      },
+      "Amazonas · Bagua": {
+        "count": 1919,
+        "median_price_m2": 1516.0
+      }
+    }
+  },
+  "types": {
+    "Sur": {
+      "Casa": {
+        "count": 66119,
+        "purchase_rate": 0.13212541024516403,
+        "rent_rate": 0.291640829413633
+      },
+      "Departamento": {
+        "count": 58863,
+        "purchase_rate": 0.11577731342269337,
+        "rent_rate": 0.21862630175152473
+      },
+      "Dúplex": {
+        "count": 13054,
+        "purchase_rate": 0.0682549410142485,
+        "rent_rate": 0.13842500383024361
+      },
+      "Minidepartamento": {
+        "count": 9107,
+        "purchase_rate": 0.1185900955309103,
+        "rent_rate": 0.5160865268474799
+      }
+    },
+    "Norte": {
+      "Departamento": {
+        "count": 30501,
+        "purchase_rate": 0.1478967902691715,
+        "rent_rate": 0.16743713320874726
+      },
+      "Casa": {
+        "count": 55292,
+        "purchase_rate": 0.16260941908413515,
+        "rent_rate": 0.24757650292989944
+      },
+      "Dúplex": {
+        "count": 6698,
+        "purchase_rate": 0.08808599581964766,
+        "rent_rate": 0.11152582860555389
+      },
+      "Minidepartamento": {
+        "count": 1873,
+        "purchase_rate": 0.198077949813134,
+        "rent_rate": 0.39188467698878804
+      }
+    }
+  },
+  "cusco_debt": {
+    ">= 0.50": {
+      "count": 26443,
+      "purchase_rate": 0.012517490451159097,
+      "rent_rate": 0.26203532125704343
+    },
+    "0.35–0.50": {
+      "count": 6657,
+      "purchase_rate": 0.13114015322217215,
+      "rent_rate": 0.5175003755445395
+    },
+    "0.25–0.35": {
+      "count": 2616,
+      "purchase_rate": 0.30619266055045874,
+      "rent_rate": 0.5057339449541285
+    },
+    "< 0.25": {
+      "count": 965,
+      "purchase_rate": 0.46424870466321244,
+      "rent_rate": 0.4227979274611399
+    }
+  },
+  "cusco_initial": {
+    "1": {
+      "count": 13644,
+      "purchase_rate": 0.14878334799179127,
+      "rent_rate": 0.3293022574025213
+    },
+    "0": {
+      "count": 23037,
+      "purchase_rate": 0.018361765854929026,
+      "rent_rate": 0.3304249685288883
+    }
+  }
+}

@@ -1,0 +1,1 @@
+"""Código analítico del laboratorio."""
